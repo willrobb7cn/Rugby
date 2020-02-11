@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Scoreboard</title>
+</head>
+
+<body>
+    <div class="wrapper clearfix">
+        <div id="title">
+            <h1>Rugby Scoreboard</h1>
+        </div>
+        <div id="timer"></div>
+
+        <div class="footer">
+        
+            <h2 id="results"></h2>
+            <h2>:</h2>
+            <h2 id="resultsTwo"></h2>
+        </div>
+         
+        <div class="container clearfix">
+
+            <div class="TeamOne">
+                <div class="buttons">
+                    <button id="try" value="5">Try</button>
+                    <button id="conversion" value="2">Conversion</button>
+                    <button id="penalty" value="3">Penalty</button>
+                    <button id="dropGoal" value="3">Drop Goal</button>
+                </div>
+                <div id="events">
+                    <h3 id="events"></h3>
+                </div>
+                <!-- <h2 id="results"></h2> -->
+            </div>
+            <div class="TeamTwo">
+                <div class="buttons">
+                    <button id="tryTwo" value="5">Try</button>
+                    <button id="conversionTwo" value="2">Conversion</button>
+                    <button id="penaltyTwo" value="3">Penalty</button>
+                    <button id="dropGoalTwo" value="3">Drop Goal</button>
+                </div>
+                <!-- <h2 id="resultsTwo"></h2> -->
+                <div id="eventsTwo">
+                    <h3 id="eventsTwo"></h3>
+                </div>
+                <!-- <h2 id="resultsTwo"></h2> -->
+            </div>
+            <!-- <h2 id="results"></h2>
+            <h2 id="resultsTwo"></h2> -->
+        </div>
+        
+    </div>
+   
+
+    <script src="rugby.js"></script>
+</body>
+
+</html>
